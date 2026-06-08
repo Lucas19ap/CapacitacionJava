@@ -64,7 +64,7 @@ public class Sintaxis {
         }
 
         int i = 0;
-        while (alumnos.get(i) == alumnoBuscado || i < alumnos.size()) 
+        while (alumnos.get(i) == alumnoBuscado && i < alumnos.size())
         {
             i++;
             encontrado = true;
