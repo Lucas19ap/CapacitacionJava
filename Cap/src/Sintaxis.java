@@ -1,3 +1,20 @@
+/*
+* Crear un proyecto básico en Java con método Main 
+* Invocar un método que imprima un listado de nombres (Lista de String)
+* Invocar un método que dada una lista de String y un String como parámetro, retorne si la lista contiene el String
+ (si al menos un elemento es igual)
+* Invocar un método que dada una lista de String y un String como parámetro, retorne una nueva lista con los elementos de la misma
+que contienen ese String (ejemplo el String "Juan Melo" contiene al String "Melo");
+* invocar un método que genere un Map (clave Long y valor String).
+  Luego invocar a un método que dado este Map retorne si una clave existe o no
+  Luego otro método que dado ese mismo map retorne el valor de una clave.
+
+*/    
+
+
+
+
+
 import java.util.ArrayList;
 import java.util.List;
 import java.util.HashMap;
