@@ -64,7 +64,7 @@ public class Sintaxis {
         }
 
         int i = 0;
-        while (alumnos.get(i) == alumnoBuscado && i < 5) //Acá no supe como poner longitud de la lista (i < 5)
+        while (alumnos.get(i) == alumnoBuscado || i < alumnos.size()) 
         {
             i++;
             encontrado = true;
